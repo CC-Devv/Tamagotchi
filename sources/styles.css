@@ -1,0 +1,197 @@
+.boton_pequeno {
+  width: 60px;
+  height: 60px;
+  padding: 0;
+  border: none;
+  background-color: #bd9af5;
+  overflow: hidden;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.boton_pequeno img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  display: block;
+}
+
+.boton_opciones {
+    width: 180px;
+    height: 180px;
+    background-color: #ffeded;
+    border-radius: 20px;
+    border-color: #ffd8d8;
+}
+
+.boton_opciones img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  display: block;
+}
+
+.texto {
+  font-family: "VT323", monospace;
+  font-size: x-large;
+  font-style: normal;
+}
+
+.titulo {
+  font-family: "VT323", monospace;
+  font-size: xx-large;
+  font-style: normal;
+}
+
+
+.div-top{
+    justify-content: space-between;
+    display: flex;
+    height: 100px;
+}
+
+.div-stats {
+    text-align: center;
+    width: 500px;
+    border-radius: 20px;
+}
+
+.div-acciones {
+    text-align: center;
+    width: 500px;
+    height: 1200;
+}
+
+.boton_tienda {
+    width: 500px;
+    height: 120px;
+    background-color: #edefff;
+    border-radius: 20px;
+    border-color: #ffd8d8;
+}
+
+.boton_tienda img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  display: block;
+}
+
+.rosa{
+    height: 133px;
+    width: 250px;
+    border-radius: 20px;
+    font-family: "VT323";
+    font-size: x-large;
+    background-color:#ffa5c8;
+}
+
+.azul{
+    height: 133px;
+    width: 250px;
+    border-radius: 20px;
+    font-family: "VT323";
+    font-size: x-large;
+    background-color: #9aaef5;
+}
+
+.morado{
+    height: 133px;
+    width: 250px;
+    border-radius: 20px;
+    font-family: "VT323";
+    font-size: x-large;
+    background-color: #d3aaf8;
+}
+
+.turquesa{
+    height: 133px;
+    width: 250px;
+    border-radius: 20px;
+    font-family: "VT323";
+    font-size: x-large;
+    background-color: #9aeff5;
+}
+
+.flores{
+    height: 133px;
+    width: 250px;
+    border-radius: 20px;
+    font-family: "VT323";
+    font-size: x-large;
+    background-image: url("images/flores.jpeg");
+}
+
+.puntos{
+    height: 133px;
+    width: 250px;
+    border-radius: 20px;
+    font-family: "VT323";
+    font-size: x-large;
+    background-image: url("images/puntos.jpeg");
+}
+
+.div-tienda{
+    width: 510px;
+    justify-items: center;
+    position: absolute;
+    left: 73%;
+    top: 15%;
+}
+
+.div-mascota {
+    position: absolute;
+    top: 15%;
+    left: 27%;
+}
+
+.mascota {
+    width: 800px;
+    height: 800px;
+    background: transparent;
+    border-radius: 20px;
+    border-color: #ffd8d800;
+}
+
+.mascota img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  display: block;
+}
+
+.stats{
+    font-family: "VT323";
+    font-size: xx-large;
+}
+
+.bg-rosa {
+    background-color: #ffa5c8;
+}
+.bg-azul {
+    background-color: #9aaef5;
+}
+
+.bg-turquesa {
+    background-color: #9aeff5;
+}
+
+.bg-morado {
+    background-color: #d3aaf8;
+}
+
+.bg-flores {
+    background-image: url("flores.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.bg-puntos {
+    background-image: url("puntos.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}

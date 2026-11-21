@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tamagotchi</title>
+    <!--ARCHIVOS-->
+    <script async defer src="sources/script.js"></script>
+    <link rel="stylesheet" href="sources/styles.css">
+    <!--PRECONECCIONES-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+</head>
+<body id="body">
+    <div class="div-top">
+        <button type="button" onclick="MUSICA()" id="music" class="boton_pequeno">
+            <img src="images/icons8-voice-50.png" alt="musica">
+        </button>
+        <h1 class="titulo">Tamagotchi</h1>
+        <button type="button" onclick="GUARDAR()" class="boton_pequeno">
+            <img src="images/save.gif" alt="save">
+        </button>
+    </div>
+    <div class="div-stats">
+        <p id="salud" class="stats">Salud: 50%</p>
+        <p id="energia" class="stats">Energía: 50%</p>
+        <p id="hambre" class="stats">Hambre: 50%</p>
+        <p id="felicidad" class="stats">Felicidad: 50%</p>
+        <p id="monedas" class="stats">Monedas: $0</p>
+        <p id="alimento" class="stats">Croquetas x0</p>
+    </div>
+    <div class="div-acciones">
+        <button type="button" onclick="ALIMENTAR()" id="alimentar" class="boton_opciones">
+            <img src="images/eat.gif" alt="cookie">
+        </button>
+        <button type="button" onclick="JUGAR()" id="jugar" class="boton_opciones">
+            <img src="images/play.gif" alt="play" >
+        </button>
+        <br>
+        <button type="button" onclick="DORMIR()" id="dormir" class="boton_opciones">
+            <img src="images/dormir.gif" alt="dormir" >
+        </button>
+        <button type="button" onclick="DESPERTAR()" id="despertar" class="boton_opciones">
+            <img src="images/despertar.gif" alt="despertar" >
+        </button>
+    </div>
+    <div class="div-mascota">
+        <button type="button" onclick="MASCOTA()" id="mascota" class="mascota">
+            <img src="images/mascota.gif" alt="mascota" >
+        </button>
+    </div>
+    <div class="div-tienda">
+        <h3 class="titulo">Tienda</h3>
+        <button type="button" onclick="COMPRAR('alimento', 10)" class="boton_tienda">
+            <img src="images/cookie.gif" alt="cookie" >
+        </button><p class="texto">Alimento $10</p>
+        <h5 class="texto">Tapiz de fondo</h5>
+        <button type="button" onclick="COMPRAR('rosa' , 80)" class="rosa">$80</button>
+        <button type="button" onclick="COMPRAR('azul' , 100)" class="azul">$100</button>
+        <br>
+        <button type="button" onclick="COMPRAR('morado' , 200)" class="morado">$200</button>
+        <button type="button" onclick="COMPRAR('turquesa' , 280)" class="turquesa">$280</button>
+        <br>
+        <button type="button" onclick="COMPRAR('flores' , 300)" class="flores">$300</button>
+        <button type="button" onclick="COMPRAR('puntos' , 500)" class="puntos">$500</button>
+    </div>
+</body>
+</html>
